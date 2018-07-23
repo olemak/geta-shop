@@ -13,6 +13,7 @@ module.exports = () => {
             faker.commerce.product()
         ];
         data.products.push({
+            id: i,
             name: `${content[0]} ${content[1]} ${content[2]}`,
             price: {
                 base: +baseprice,

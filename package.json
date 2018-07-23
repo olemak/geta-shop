@@ -8,6 +8,7 @@
     "dependencies": {
         "casual": "^1.5.19",
         "faker": "^4.1.0",
+        "hipster-product-creator": "^1.0.4",
         "json-server": "^0.14.0",
         "react": "^16.4.1",
         "react-dom": "^16.4.1"

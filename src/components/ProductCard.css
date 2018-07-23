@@ -1,0 +1,29 @@
+.ProductCard {
+    border: 1px solid blue;
+
+    padding: 0;
+    min-width: 200px;
+    max-width: 450px;
+    display: grid;
+    grid-column-end: span 1;
+
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+.ProductCard .card__title {
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: span 2;
+    grid-row-end: 12;
+    font-family: "Work Sans";
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.ProductCard .card__image {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 12;
+}
